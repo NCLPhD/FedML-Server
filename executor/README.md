@@ -3,6 +3,15 @@ Installation user guide book: https://doc.fedml.ai/user_guide/open_source/instal
 
 pip install -r requirements.txt
 
+## Problem solutions
+**ERROR: Failed building wheel for mpi4py**
+If you get an error about `ERROR: Could not build wheels for mpi4py which use PEP 517 and cannot be installed directly`
+Please make sure your host already installed `libopenmpi-dev`
+```bash
+# Example command for libopenmpi-dev installation.
+sudo apt install libopenmpi-dev 
+```
+
 # Prepare Dataset
 ```
 cd FedML/data/MNIST/
