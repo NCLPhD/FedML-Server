@@ -22,7 +22,7 @@ cd ../../../
 # Launch the HTTP Server
 Set the server IP and port and then run the following script:
 ```
-python app.py
+python executor/app.py
 ```
 
 # Preprocess Dataset
