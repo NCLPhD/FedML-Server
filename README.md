@@ -1,5 +1,5 @@
 # Installation
-http://doc.fedml.ai/#/installation
+Installation user guide book: https://doc.fedml.ai/user_guide/open_source/installation.html
 
 After the clone of this repository, please run the following command to get `FedML` submodule to your local.
 ```bash
